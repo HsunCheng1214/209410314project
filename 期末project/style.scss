@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* nav */
+  .nav-container{
+      background:gray;
+      font-family:"Poopins",sans-serif;
+
+      nav{
+          width: 80%;
+          height: 72px;
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .logo {
+              font-size: 1rem;
+              font-weight: 800;
+
+              a{
+                text-decoration:none ;
+                color: #000000;
+              }
+          }
+          .nav-items{
+              ul{
+                  display: flex;
+
+                  li{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0 40px;
+                    
+                    a{
+                    text-decoration: none;
+                    color: #000000;
+
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                   }
+                  }
+              }
+          }
+      }
+  }
+  //img
+  .img{
+     justify-content: center;
+     margin-top: 30px;
+     margin-left: 60px;
+  
+     img{
+      border-radius: 30%;
+     }  
+  }
+
+  //aboutme
+
+  .about-me1{
+      border:white  solid 6px;
+      background-color:aqua;
+      margin: 60px;
+      
+      .a1{
+        font-style: italic;
+      }
+  }
+  
+  .about-me2{
+    border:steelblue  solid 6px;
+      background-color:aqua;
+      margin: 60px;
+
+      .a2{
+        font-style: italic;
+      }
+  }
+
+  .about-me3{
+    border:pink  solid 6px;
+      background-color: aqua;
+      margin: 60px;
+
+      .a3{
+        font-style: italic;
+      }
+  }
+
+  //project2
+
+  .picture{
+      .btn{
+          font-size: 40px;
+          color: white;
+          display: flex;
+          margin-left: 700px;
+        
+      }
+      .img2{
+          justify-content: center;
+          align-items: center;
+          margin-top: 60px;
+        
+          img{
+              margin-top: 60px;
+              width: 1000px;
+              margin-left: 400px;
+          }
+      }
+  }
